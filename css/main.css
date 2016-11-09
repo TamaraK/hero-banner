@@ -12,12 +12,12 @@ html {
 }
 
 .banner {
-  font-family: "Open Sans";
   font-size: 4rem;
-  color: rgba(0, 0, 0, 0.5)
+  font-family: "Open Sans", sans-serif;
 }
 
 .card-body {
   font-size: 2rem;
   font-style: italic;
+  font-family: "Open Sans", sans-serif;
 }
