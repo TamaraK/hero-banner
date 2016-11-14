@@ -14,10 +14,24 @@ html {
 .banner {
   font-size: 4rem;
   font-family: "Open Sans", sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  max-height: 500px;
+  max-width: 50em;
 }
 
-.card-body {
+p {
   font-size: 2rem;
   font-style: italic;
   font-family: "Open Sans", sans-serif;
+}
+
+.card{
+  overflow: hidden;
+  position: relative;
+}
+
+.div {
+  position: absolute;
+  bottom: 1.5rem;
 }
