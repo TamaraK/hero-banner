@@ -18,6 +18,9 @@ html {
   color: #fff;
   max-height: 500px;
   max-width: 50em;
+  display: inline;
+  max-height: 50em;
+
 }
 
 p {
@@ -34,4 +37,6 @@ p {
 .div {
   position: absolute;
   bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
